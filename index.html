@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Dharaneesh D - Full Stack Web Developer">
+    <title>Dharaneesh D | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Dharaneesh<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1>Dharaneesh D</h1>
+            <h2 class="typing-text">Full Stack Web Developer</h2>
+            <p>Third-year B.E. CSE student passionate about building responsive, user-centric applications with the MERN stack.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View Work</a>
+                <a href="#contact" class="btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dharaneesh-d/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Dharaneesh1881" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/dharaneesh1881/" target="_blank"><i class="fas fa-code"></i></a>
+                <a href="mailto:dharaneesh1881@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a Third-year B.E. CSE student at KPR Institute of Engineering and Technology with a strong foundation in Full Stack Web Development. Proficient in the MERN stack (MongoDB, Express, React, Node.js), I enjoy building responsive and user-centric applications.</p>
+                    <p>My journey involves constant learning and applying technical skills to innovative software solutions. I am experienced with version control using Git/GitHub and am currently looking for challenging internship opportunities.</p>
+                    
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tiruppur, Tamil Nadu</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>dharaneesh1881@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+91-97903-61881</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-language"></i>
+                            <span>Tamil, English</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>Web3 Technology</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>ROS 2</span>
+                        <span>DevOps</span>
+                        <span>Problem Solving</span>
+                        <span>Data Structures</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Task Manager Web App</h3>
+                        <p>A comprehensive web application to streamline task organization and improve personal productivity with secure authentication.</p>
+                        <div class="tech-stack">
+                            <span>MERN Stack</span>
+                            <span>Auth</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://task-manager-web-app-six.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/Dharaneesh1881/task_manager_web_app" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Tweets Web App</h3>
+                        <p>Real-time social media platform for content sharing, featuring posting, replying, and profile customization.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Vite</span>
+                            <span>Cloudinary</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://tweets-web-app.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/Dharaneesh1881/tweets_web_app" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Automated Attendance System</h3>
+                        <p>Face recognition-based attendance system using OpenCV and Python to replace manual logging.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dharaneesh1881/attendance-management-system" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section bg-alt">
+        <div class="container">
+            <div class="exp-edu-grid">
+                <!-- Experience -->
+                <div class="timeline-column">
+                    <h2 class="section-title-left">Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Nov 2024</div>
+                            <div class="timeline-content">
+                                <h3>Python Developer Intern</h3>
+                                <h4>Cognifyz Technologies (Remote)</h4>
+                                <p>Gained practical experience in software development working as a Python Developer intern.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2023</div>
+                            <div class="timeline-content">
+                                <h3>Networking Intern</h3>
+                                <h4>CISCO (Remote)</h4>
+                                <p>Completed Cisco Packet Tracer and Network Essentials internships. Gained foundational knowledge in networking concepts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-column">
+                    <h2 class="section-title-left">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2023 - Present</div>
+                            <div class="timeline-content">
+                                <h3>B.E. Computer Science and Engineering</h3>
+                                <h4>KPR Institute of Engineering and Technology</h4>
+                                <p>CGPA: 7.83</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2022 - 2023</div>
+                            <div class="timeline-content">
+                                <h3>12th Grade</h3>
+                                <h4>Literacy Mission School</h4>
+                                <p>Completed Higher Secondary Education.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Activities -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications & Leadership</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>OpenCV Bootcamp</h3>
+                    <p>OpenCV University - Certificate of Excellence</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Packet Tracer & Network Essentials</h3>
+                    <p>Cisco Certification</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Robotics & Technical Clubs</h3>
+                    <p>e-Yantra Competition, ROS 2, CV Club Member</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Dharaneesh D</h3>
+                <p>Building the web, one pixel at a time.</p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/dharaneesh-d/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Dharaneesh1881" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/dharaneesh1881/" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="mailto:dharaneesh1881@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dharaneesh D. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
